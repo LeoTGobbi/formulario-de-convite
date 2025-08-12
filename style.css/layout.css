@@ -1,0 +1,31 @@
+#app {
+  display: grid;
+  grid-template-columns: 36% 64%;
+  
+  
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+aside {
+  padding: 2rem;
+  border-radius: .75rem;
+  margin: 1.25rem  .625rem 1.25rem 1.25rem;
+  
+  
+
+  background: linear-gradient(180deg, rgba(33, 37, 38, 0.8) 0%, rgba(33, 37, 38, 0.65) 20%, rgba(33, 37, 38, 0.3) 40.5%, rgba(33, 37, 38, 0.1) 100%)
+ 
+}
+
+main {
+  overflow: auto;
+  padding: 5rem;
+  background-color: var(--shape-body);
+  border-radius: .75rem;
+  margin: 1.25rem 1.25rem 1.25rem .625rem ;
+  
+  
+}

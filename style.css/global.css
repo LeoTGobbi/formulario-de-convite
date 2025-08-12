@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
 --font-family-baloo: "Baloo 2", sans-serif;
 --font-family: "Open Sans", sans-serif;
@@ -26,7 +32,9 @@
 
 --text-body: #C8CDD0;
 --text-heading: #F9F9F9;
+}
 
-
-
+body {
+  overflow: hidden;
+  background-color: var(--shape-background);
 }
