@@ -13,6 +13,12 @@ aside {
   padding: 2rem;
   border-radius: .75rem;
   margin: 1.25rem  .625rem 1.25rem 1.25rem;
+
+  & .aside-container {
+    max-width: 21rem;
+    margin-left: auto;
+    
+  }
   
   
 
@@ -26,6 +32,10 @@ main {
   background-color: var(--shape-body);
   border-radius: .75rem;
   margin: 1.25rem 1.25rem 1.25rem .625rem ;
+
+  & .main-container {
+    max-width: 35rem;
+  }
   
   
 }
