@@ -5,15 +5,19 @@
 }
 
 :root {
+--font-leckerli: "Leckerli One", cursive; 
 --font-family-baloo: "Baloo 2", sans-serif;
 --font-family: "Open Sans", sans-serif;
+
+--logo: var(--font-leckerli);
 
 --heading-md: 700 1.75rem/160% var(--font-family-baloo);
 --heading-sm: 700 1.125rem/160% var(--font-family-baloo);
 
---body-md: 100 1rem/160% var(--font-family);
---body-sm: 100 14px/160% var(--font-family);
---body-xs: 100 12px/160% var(--font-family);
+--text-logo: 300 1rem/160% var(--font-family);
+--body-md: 400 1rem/160% var(--font-family);
+--body-sm: 400 14px/160% var(--font-family);
+--body-xs: 400 12px/160% var(--font-family);
 
 --brand-light: #59B2FF;
 --brand-mid: #3487CF;
@@ -39,4 +43,8 @@ body {
   background-color: var(--shape-background);
   font: var(--body-md);
   color: var(--text-body);
+}
+
+img {
+  max-width: 100%;
 }

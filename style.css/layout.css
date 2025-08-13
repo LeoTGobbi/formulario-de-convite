@@ -10,20 +10,45 @@
 
 
 aside {
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+
   padding: 2rem;
   border-radius: .75rem;
   margin: 1.25rem  .625rem 1.25rem 1.25rem;
 
+  header{
+      img {
+        width: 45.85px;
+        height: 48px;
+      }
+  }
+
+
   & .aside-container {
     max-width: 21rem;
-    margin-left: auto;
+    margin: auto;  
     
-  }
-  
-  
+    
 
-  background: linear-gradient(180deg, rgba(33, 37, 38, 0.8) 0%, rgba(33, 37, 38, 0.65) 20%, rgba(33, 37, 38, 0.3) 40.5%, rgba(33, 37, 38, 0.1) 100%)
- 
+    h1 {
+      font-family: var(--logo);
+      color: #FF598B;
+      font-size: 2.5rem;
+      margin-top: 1rem;
+    }
+
+    p {
+      font: var(--text-logo);
+      color: var(--text-heading);
+      margin-top: 1rem;
+    }
+
+  }  
+  
+  /* background: linear-gradient(180deg, rgba(33, 37, 38, 0.8) 0%, rgba(33, 37, 38, 0.65) 20%, rgba(33, 37, 38, 0.3) 40.5%, rgba(33, 37, 38, 0.1) 100%) */
+  
+  
 }
 
 main {
@@ -35,6 +60,11 @@ main {
 
   & .main-container {
     max-width: 35rem;
+
+    h1 {
+      font: var(--heading-md);
+      color: var(--text-heading);
+    }
   }
   
   
