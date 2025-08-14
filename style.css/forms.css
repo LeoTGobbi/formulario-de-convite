@@ -1,0 +1,40 @@
+@import url(fields/index.css);
+
+
+.head {
+ 
+  display: flex;
+  
+  
+  gap: .75rem;
+
+   
+  
+ 
+
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    
+  }
+}
+
+form {
+  margin-top: 2.5rem;
+
+}
+
+fieldset {
+  border: none;
+  display: grid;
+  gap: 1rem;
+
+  h2 {
+    font: var(--heading-sm);
+    color: var(--text-heading);
+    margin-bottom: .5rem;
+  }
+
+}
+

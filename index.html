@@ -30,8 +30,10 @@
 
         <form>
           <fieldset class="event-about">
+            <div class="head">
             <img src="assets/icons/calendar.svg" alt="ícone de calendário">
-            <span>Sobre o evento</span>
+            <h2>Sobre o evento</h2>
+            </div class="head">
 
             <div class="input-wrapper">
               <label for="title">Título</label>
@@ -40,48 +42,50 @@
                      placeholder="Nome do evento">
 
             </div>
+
             <div class="flex">
-              <div class="input-wrapper">
+              <div class="input-wrapper flex-1">
                 <label for="start">Início</label>
                 <input type="date" id="start" lang="pt-br">
               </div>
             
 
-              <div class="input-wrapper">
+              <div class="input-wrapper flex-1">
                 <label for="end">Fim</label>
                 <input type="date" id="end" lang="pt-br">
               </div>
 
             </div>
+
             <div class="flex">
-              <div class="input-wrapper">
+              <div class="input-wrapper flex-1" >
                 <label for="type">Tipo</label>
 
                 <div class="radio-wrapper">
                   <div class="radio-inner">
-                    <div class="radio-image"></div>
-                    <input type="radio" name="local-shift" value="present" id="present">
-                    <label for="present">Presencial</label>
+                    <div class="radio-image-p"></div>
+                    <input type="radio" name="local-shift" value="present" id="present" checked>
+                    <span for="present">Presencial</span>
                   </div>
 
                   <div class="radio-inner">
-                    <div class="radio-image"></div>
+                    <div class="radio-image-o"></div>
                     <input type="radio" name="local-shift" value="online" id="online">
-                    <label for="online">online</label>
+                    <span for="online">Online</span>
                   </div>
                 </div>
               </div>
 
-                <div class="input-wrapper">
+                <div class="input-wrapper flex-1">
                   <label for="address">Local</label>
                   <input type="text" id="address" name="address" value="Link ou endereço">
                 </div>
             
             </div>
+
             <div class="textarea-wrapper">
               <label for="description">Descrição</label>
-              <textarea name="description" id="description" cols="30" rows="10"
-              placeholder="Escreva sobre os detalhes do evento">
+              <textarea name="description" id="description" cols="30" rows="3" placeholder="Escreva sobre os detalhes do evento">
               </textarea>
             </div>
 
