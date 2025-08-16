@@ -38,3 +38,7 @@ fieldset {
 
 }
 
+fieldset + fieldset {
+  margin-top: 3rem;
+}
+
