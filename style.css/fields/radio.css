@@ -162,8 +162,16 @@ legend {
   color: #FFFFFF;
 }
 
+.radio-wrapper-box {
+  margin-top: 1.75rem;
+  
+}
+
 .radio-box-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1.75rem;
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(8.375rem, 1fr));
   gap: .5rem;
 }
@@ -172,7 +180,7 @@ legend {
 
   display: grid;
   
-  margin-top: 1rem;
+  
   width: 8.375rem;
   height: 6,4375rem;
   background-color: var(--shape-button);

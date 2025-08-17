@@ -1,0 +1,67 @@
+
+
+
+
+.switch {
+
+  margin-top: 1.75rem;
+  display: flex;
+  
+  
+
+   & input,
+  & input:focus,
+  & input:hover {
+    all:unset;
+  }
+}
+
+.button {
+  width: 4rem;
+  height: 2rem;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+  border-radius: 100rem;
+  cursor: pointer;
+  position: relative;
+  transition: .3s;
+}
+
+.button::before{
+  position: absolute;
+  content: "";
+  background-color: var(--input-stroke);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100rem;
+  margin: .2rem;
+  transition: .3s;
+}
+.switch input:checked + .button{
+  background-color: var(--brand-light);
+
+}
+.switch input:checked + .button::before{
+  transform: translateX(2rem);
+  background-color: var(--text-heading);
+}
+
+.mode-text::after {
+  content: "Escuro";
+  margin-left: .75rem;
+}
+
+.switch input:checked ~ .mode-text::after {
+  content: "Claro";
+}
+
+
+
+
+
+
+
+
+
+
+
