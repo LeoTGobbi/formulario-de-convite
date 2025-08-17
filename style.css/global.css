@@ -51,6 +51,7 @@ img {
 
 .flex {
   display: flex;
+  gap: 1rem;
 }
 
 .flex-1 {

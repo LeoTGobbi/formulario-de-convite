@@ -7,6 +7,10 @@
   margin-top: 1.3rem;
   display: flex;
   
+ 
+  
+
+  
   
   
 
@@ -46,6 +50,8 @@
   transform: translateX(2rem);
   background-color: var(--text-heading);
 }
+
+
 
 .mode-text::after {
   content: "Escuro";

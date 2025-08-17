@@ -78,15 +78,15 @@
 
                 <div class="input-wrapper flex-1">
                   <label for="address">Local</label>
-                  <input type="text" id="address" name="address" value="Link ou endereço">
+                  <input type="text" id="address" name="address"  placeholder="Link ou endereço">
                 </div>
             
             </div>
 
             <div class="textarea-wrapper">
               <label for="description">Descrição</label>
-              <textarea name="description" id="description" cols="30" rows="3" placeholder="Escreva sobre os detalhes do evento">
-              </textarea>
+              <input type="text" name="description" id="description" cols="30" rows="10" placeholder="Escreva sobre os detalhes do evento">
+            </input>
             </div>
 
           </fieldset>
@@ -261,7 +261,7 @@
                   <div class="switch">
                     <input type="checkbox" id="check" >
                    <label for="check" class="button"></label>
-                    <span class="mode-text"></span>
+                  <span class="mode-text"></span>
                     </div>
                 
               </div>
@@ -269,21 +269,52 @@
 
               <div class="droparea-wrapper flex-2">
                 <label for="profile">Foto de capa</label>
-                
-                <div class="dropbutton">
-                  <input type="file" id="profile" name="profile" accept="image/*" required >
-                  <img src="assets/icons/upload.svg" alt="">
-                  <span>Selecionar</span>
-                  
-                </div>
-             
+                  <div class="droparea">
+                    <input type="file" id="profile" name="profile" accept="image/*" required >
+                    <div class="dropbutton">
+                     <img src="assets/icons/upload.svg" alt="">
+                     <span>Selecionar</span>
+                    </div>
+                  </div>
               </div>
 
             </div>
 
           </fieldset>
 
-          
+          <fieldset class="contact-data">
+            <div class="head">
+            <img src="assets/icons/contact.svg" alt="ícone de perfil">
+            <h2>Dados para contato</h2>
+            </div class="head">
+
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input id="name" 
+                    type="text"
+                    name="name"
+                    placeholder="Nome completo" required>
+                  <div class="error">
+                    <img src="assets/icons/circle-alert.svg" alt="ícone de alerta">
+                    <span>Campo obrigatório</span>
+                  </div>
+
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-1">
+                <label for="mail">E-mail</label>
+                <input type="email" id="mail" name="mail" placeholder="exemplo@email.com">
+              </div>
+            
+
+              <div class="input-wrapper flex-1">
+                <label for="end">Telefone</label>
+                <input type="text" id="end" placeholder="(99) 99999-9999 ">
+              </div>
+
+            </div>
+          </fieldset>
         </form>
       </div>
     </main>
