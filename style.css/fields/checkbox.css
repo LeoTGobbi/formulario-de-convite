@@ -4,8 +4,9 @@
 
 .switch {
 
-  margin-top: 1.75rem;
+  margin-top: 1.3rem;
   display: flex;
+  
   
   
 
@@ -49,6 +50,7 @@
 .mode-text::after {
   content: "Escuro";
   margin-left: .75rem;
+  font: var(--body-sm);
 }
 
 .switch input:checked ~ .mode-text::after {

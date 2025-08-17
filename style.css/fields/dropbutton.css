@@ -1,0 +1,31 @@
+.dropbutton{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 1rem;
+  width: 7.45rem;
+  height: 2.5rem;
+  background-color: var(--shape-button);
+  border-radius: .5rem;
+  padding: .75rem;
+  position: relative;
+  
+  
+ 
+  & input {
+    position: absolute;
+    width: 7.45rem;
+     height: 2.5rem;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+
+}
+  }
+
+  & span {
+    font: var(--body-sm);
+
+  }
+
+  
