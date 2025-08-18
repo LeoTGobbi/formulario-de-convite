@@ -270,11 +270,17 @@
               <div class="droparea-wrapper flex-2">
                 <label for="profile">Foto de capa</label>
                   <div class="droparea">
-                    <input type="file" id="profile" name="profile" accept="image/*" required >
+                    
                     <div class="dropbutton">
                      <img src="assets/icons/upload.svg" alt="">
                      <span>Selecionar</span>
                     </div>
+                    <input type="file" id="profile" name="profile" accept="image/*" required >
+                    <div class="error">
+                    <img src="assets/icons/circle-alert.svg" alt="ícone de alerta">
+                    <span>Campo obrigatório</span>
+                  </div>
+                  
                   </div>
               </div>
 
@@ -337,6 +343,13 @@
 
                 <label for="terms">Aceito receber atualizações e promoções por SMS</label>
              </div>
+          </div>
+
+          <div class="action-wrapper">
+            <button class="primary">
+              <img src="assets/icons/ticket.svg" alt="ícone de ticket">
+              Gerar convite
+            </button>
           </div>
         </form>
       </div>
