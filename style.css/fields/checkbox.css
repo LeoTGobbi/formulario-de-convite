@@ -1,24 +1,15 @@
 
-
-
-
 .switch {
-
   margin-top: 1.3rem;
   display: flex;
   
- 
-  
-
-  
-  
-  
-
-   & input,
+  & input,
   & input:focus,
   & input:hover {
     all:unset;
-  }
+}
+
+    
 }
 
 .button {
@@ -54,9 +45,11 @@
 
 
 .mode-text::after {
+  
   content: "Escuro";
   margin-left: .75rem;
   font: var(--body-sm);
+  
 }
 
 .switch input:checked ~ .mode-text::after {

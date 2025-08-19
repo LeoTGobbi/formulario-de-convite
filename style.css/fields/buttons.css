@@ -1,4 +1,7 @@
+
+
 button {
+  
   all: unset;
   font-weight: 500;
   color: var(--text-heading);
@@ -13,7 +16,7 @@ button {
   &.primary {
     background-color: var(--brand-dark);
     margin-left: auto;
-
+    
     &:hover,
     &:focus {
       background-color: var(--brand-mid);

@@ -1,5 +1,6 @@
 .allterms-wrapper{
-  margin: 2.5rem auto 3rem;
+  max-width: 35rem;
+  margin: 2.5rem 0 3rem;
   border-top: 1px solid var(--input-stroke);
   padding-top: 3rem;
 }

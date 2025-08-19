@@ -43,7 +43,16 @@ fieldset + fieldset {
 }
 
 .contact-data {
+  max-width: 35rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+.action-wrapper  {
+  max-width: 35rem;
+}
+
+
+
+
 
